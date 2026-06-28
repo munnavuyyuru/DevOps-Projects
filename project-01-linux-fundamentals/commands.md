@@ -221,3 +221,95 @@ sudo sh -c 'echo "<text>" >> <file>'
 ```
 
 Appends text to a file with elevated privileges.
+
+---
+
+# Phase 5 - Text Processing
+
+### Replace Text in a File
+
+```bash
+sed -i 's/<old_text>/<new_text>/g' <file>
+```
+
+Replaces all occurrences of a string directly in the file.
+
+---
+
+### Open File in Vi Editor
+
+```bash
+vi <file>
+```
+
+---
+
+### Common Vi Commands
+
+| Command         | Description                         |
+| --------------- | ----------------------------------- |
+| `gg`            | Go to the first line                |
+| `yy`            | Copy (yank) current line            |
+| `10p`           | Paste copied line 10 times          |
+| `:%s/old/new/g` | Replace all occurrences in the file |
+| `:wq`           | Save and exit                       |
+
+---
+
+### Delete File
+
+> **Already covered in Phase 4**
+
+```bash
+rm <file>
+```
+
+---
+
+# Phase 6 - File Search & System Information
+
+### Find Files
+
+```bash
+find <path> -type f -name "<filename>"
+```
+
+Searches for files by name starting from the specified path.
+
+Example:
+
+```bash
+find / -type f -name "f3"
+```
+
+---
+
+### Count Files
+
+```bash
+find <path> -type f | wc -l
+```
+
+Counts the total number of files under a directory.
+
+Example:
+
+```bash
+find / -type f | wc -l
+```
+
+---
+
+### Display Last Line of a File
+
+```bash
+tail -n 1 <file>
+```
+
+Displays the last line of a file.
+
+Example:
+
+```bash
+tail -n 1 /etc/passwd
+```

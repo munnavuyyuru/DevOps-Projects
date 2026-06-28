@@ -106,28 +106,28 @@ Linux assessment for an DevOps Engineer!! Learn with Fun!!
 
 ### As `user2`
 
-- [ ] Create:
-  - [ ] `/dir1/f2`
+- [x] Create:
+  - [x] `/dir1/f2`
 
-- [ ] Delete:
-  - [ ] `/dir6`
-  - [ ] `/dir8`
+- [x] Delete:
+  - [x] `/dir6`
+  - [x] `/dir8`
 
-- [ ] Replace:
-  - [ ] `DevOps` → `devops`
-  - [ ] Without using an editor
+- [x] Replace:
+  - [x] `DevOps` → `devops`
+  - [x] Without using an editor
 
-- [ ] Using **vi**:
-  - [ ] Copy first line
-  - [ ] Paste it 10 times
+- [x] Using **vi**:
+  - [x] Copy first line
+  - [x] Paste it 10 times
 
-- [ ] Replace:
-  - [ ] `Engineer`
-  - [ ] With `engineer`
-  - [ ] Using a single command
+- [x] Replace:
+  - [x] `Engineer`
+  - [x] With `engineer`
+  - [x] Using a single command
 
-- [ ] Delete:
-  - [ ] `/f3`
+- [x] Delete:
+  - [x] `/f3`
 
 ---
 
@@ -135,14 +135,14 @@ Linux assessment for an DevOps Engineer!! Learn with Fun!!
 
 ### As `root`
 
-- [ ] Find every file named:
-  - [ ] `f3`
+- [x] Find every file named:
+  - [x] `f3`
 
-- [ ] Count files under:
-  - [ ] `/`
+- [x] Count files under:
+  - [x] `/`
 
-- [ ] Display:
-  - [ ] Last line of `/etc/passwd`
+- [x] Display:
+  - [x] Last line of `/etc/passwd`
 
 ---
 

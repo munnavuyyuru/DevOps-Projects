@@ -40,3 +40,25 @@
 - Using `*` deletes only the contents of a directory while preserving the parent directory.
 - `echo` with output redirection (`>>`) appends text to a file.
 - `sudo sh -c` is required when the shell redirection itself needs elevated privileges.
+
+---
+
+# Phase 5 - Text Processing
+
+## Key Learnings
+
+- `sed -i` edits a file directly without opening an editor.
+- `vi` is a powerful terminal-based text editor commonly available on Linux systems.
+- `:%s/old/new/g` performs a global search and replace inside a file.
+- `yy` copies a line, and `10p` pastes it ten times.
+
+---
+
+# Phase 6 - File Search & System Information
+
+## Key Learnings
+
+- `find` is the standard Linux command for locating files and directories.
+- Combine `find` with `wc -l` to count matching files.
+- `tail -n 1` displays the last line of a file, useful for quickly checking logs or configuration files.
+- `/etc/passwd` stores information about all user accounts on the system.
