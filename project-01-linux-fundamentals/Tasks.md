@@ -60,17 +60,17 @@ This document tracks the tasks completed for **Project 01 - Linux Fundamentals f
 
 ### As `user4`
 
-- [ ] Create directory:
-  - [ ] `/dir6/dir4`
+- [x] Create directory:
+  - [x] `/dir6/dir4`
 
-- [ ] Create file:
-  - [ ] `/f3`
+- [x] Create file:
+  - [x] `/f3`
 
-- [ ] Move:
-  - [ ] `/dir1/f1` → `/dir2/dir1/dir2`
+- [x] Move:
+  - [x] `/dir1/f1` → `/dir2/dir1/dir2`
 
-- [ ] Rename:
-  - [ ] `/f2` → `/f4`
+- [x] Rename:
+  - [x] `/f2` → `/f4`
 
 ---
 

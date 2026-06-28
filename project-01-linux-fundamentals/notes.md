@@ -19,3 +19,13 @@
 - Use `sudo -l` to verify a user's sudo permissions.
 - Refresh group membership after modifying groups using `newgrp` or by logging in again.
 - Administrative tasks such as creating users, setting passwords, and creating groups require sudo.
+
+# Phase 3 - File & Directory Operations
+
+## Key Learnings
+
+- `mkdir -p` creates nested directories in a single command.
+- `touch` creates an empty file if it doesn't exist.
+- `mv` is used for both moving and renaming files/directories.
+- The destination path determines whether `mv` performs a move or a rename.
+- Use `sudo` when operating on files or directories that require elevated privileges.

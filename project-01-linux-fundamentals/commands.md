@@ -137,5 +137,48 @@ Display the commands the current user is allowed to run with `sudo`.
 ---
 
 ## Create Users,Groups & Set Password
-```
+
+````
 refer the phase1 commands
+
+
+
+# Phase 3 - File & Directory Operations
+
+### Create Nested Directories
+
+```bash
+mkdir -p <directory>/<subdirectory>
+````
+
+Creates parent directories if they don't already exist.
+
+---
+
+### Create a File
+
+```bash
+touch <filename>
+```
+
+Creates an empty file.
+
+---
+
+### Move a File
+
+```bash
+sudo mv <source_path> <destination_path>
+```
+
+Moves a file or directory to a new location.
+
+---
+
+### Rename a File
+
+```bash
+sudo mv <old_name> <new_name>
+```
+
+Renames a file or directory.
