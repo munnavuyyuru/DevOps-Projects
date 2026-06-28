@@ -1,8 +1,8 @@
 # Commands Reference
 
-This document contains the Linux commands
+This document contains the Linux commands for all phases
 
-**Phase 1 - User & Group Management**.
+# Phase 1 - User & Group Management.
 
 ---
 
@@ -94,4 +94,48 @@ Change both the owner and group of a file or directory.
 ls -ld <file_or_directory>
 ```
 
-Display ownership and permission details for a directory or file.
+# Phase 2 - User Privileges & User Management
+
+## Add User to sudo Group
+
+```bash
+sudo usermod -aG sudo <username>
+```
+
+Add an existing user to the `sudo` group.
+
+---
+
+## Refresh Group Membership
+
+```bash
+newgrp sudo
+```
+
+Refresh the current session to apply new group membership without logging out.
+
+---
+
+## Switch User
+
+```bash
+su - <username>
+```
+
+Switch to another user account and start a login shell.
+
+---
+
+## Verify sudo Access
+
+```bash
+sudo -l
+```
+
+Display the commands the current user is allowed to run with `sudo`.
+
+---
+
+## Create Users,Groups & Set Password
+```
+refer the phase1 commands

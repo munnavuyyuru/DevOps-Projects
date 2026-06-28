@@ -44,15 +44,15 @@ This document tracks the tasks completed for **Project 01 - Linux Fundamentals f
 
 ### As `user1`
 
-- [ ] Create users:
-  - [ ] `user4`
-  - [ ] `user5`
+- [x] Create users:
+  - [x] `user4`
+  - [x] `user5`
 
-- [ ] Set passwords
+- [x] Set passwords
 
-- [ ] Create groups:
-  - [ ] `app`
-  - [ ] `database`
+- [x] Create groups:
+  - [x] `app`
+  - [x] `database`
 
 ---
 
