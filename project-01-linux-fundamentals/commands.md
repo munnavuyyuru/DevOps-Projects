@@ -138,10 +138,11 @@ Display the commands the current user is allowed to run with `sudo`.
 
 ## Create Users,Groups & Set Password
 
-````
+```
 refer the phase1 commands
+```
 
-
+---
 
 # Phase 3 - File & Directory Operations
 
@@ -149,7 +150,7 @@ refer the phase1 commands
 
 ```bash
 mkdir -p <directory>/<subdirectory>
-````
+```
 
 Creates parent directories if they don't already exist.
 
@@ -182,3 +183,41 @@ sudo mv <old_name> <new_name>
 ```
 
 Renames a file or directory.
+
+---
+
+# Phase 4 - Directory Management
+
+### Create Nested Directory,Create File & Move File
+
+> **Already covered in Phase 3**
+
+---
+
+### Delete Directory Recursively
+
+```bash
+sudo rm -rf <directory>
+```
+
+Deletes a directory and all of its contents.
+
+---
+
+### Remove All Contents Inside a Directory
+
+```bash
+sudo rm -rf <directory>/*
+```
+
+Deletes all files and subdirectories while keeping the parent directory.
+
+---
+
+### Write Text to a File
+
+```bash
+sudo sh -c 'echo "<text>" >> <file>'
+```
+
+Appends text to a file with elevated privileges.

@@ -78,23 +78,23 @@ This document tracks the tasks completed for **Project 01 - Linux Fundamentals f
 
 ### As `user1`
 
-- [ ] Create directory:
-  - [ ] `/home/user2/dir1`
+- [x] Create directory:
+  - [x] `/home/user2/dir1`
 
-- [ ] Create file using **relative path**:
-  - [ ] `/opt/dir14/dir10/f1`
+- [x] Create file using **relative path**:
+  - [x] `/opt/dir14/dir10/f1`
 
-- [ ] Move:
-  - [ ] `/opt/dir14/dir10/f1`
-  - [ ] Destination → `/home/user1`
+- [x] Move:
+  - [x] `/opt/dir14/dir10/f1`
+  - [x] Destination → `/home/user1`
 
-- [ ] Delete:
-  - [ ] `/dir4`
+- [x] Delete:
+  - [x] `/dir4`
 
-- [ ] Remove all contents inside:
-  - [ ] `/opt/dir14`
+- [x] Remove all contents inside:
+  - [x] `/opt/dir14`
 
-- [ ] Write the following text into `/f3`:
+- [x] Write the following text into `/f3`:
 
 ```text
 Linux assessment for an DevOps Engineer!! Learn with Fun!!

@@ -29,3 +29,14 @@
 - `mv` is used for both moving and renaming files/directories.
 - The destination path determines whether `mv` performs a move or a rename.
 - Use `sudo` when operating on files or directories that require elevated privileges.
+
+---
+
+# Phase 4 - Directory Management
+
+## Key Learnings
+
+- `rm -rf` permanently removes directories and their contents.
+- Using `*` deletes only the contents of a directory while preserving the parent directory.
+- `echo` with output redirection (`>>`) appends text to a file.
+- `sudo sh -c` is required when the shell redirection itself needs elevated privileges.
