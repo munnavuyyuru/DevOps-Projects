@@ -8,35 +8,35 @@ This document tracks the tasks completed for **Project 01 - Linux Fundamentals f
 
 ### As `root`
 
-- [ ] Create users:
-  - [ ] `user1`
-  - [ ] `user2`
-  - [ ] `user3`
+- [x] Create users:
+  - [x] `user1`
+  - [x] `user2`
+  - [x] `user3`
 
-- [ ] Set passwords for all users
+- [x] Set passwords for all users
 
-- [ ] Create groups:
-  - [ ] `devops`
-  - [ ] `aws`
+- [x] Create groups:
+  - [x] `devops`
+  - [x] `aws`
 
-- [ ] Change the primary group of:
-  - [ ] `user2` → `devops`
-  - [ ] `user3` → `devops`
+- [x] Change the primary group of:
+  - [x] `user2` → `devops`
+  - [x] `user3` → `devops`
 
-- [ ] Add `aws` as a secondary group to:
-  - [ ] `user1`
+- [x] Add `aws` as a secondary group to:
+  - [x] `user1`
 
-- [ ] Create the required directory and file structure
+- [x] Create the required directory and file structure
 
-- [ ] Change group ownership to `devops`:
-  - [ ] `/dir1`
-  - [ ] `/dir7/dir10`
-  - [ ] `/f2`
+- [x] Change group ownership to `devops`:
+  - [x] `/dir1`
+  - [x] `/dir7/dir10`
+  - [x] `/f2`
 
-- [ ] Change owner to `user1`:
-  - [ ] `/dir1`
-  - [ ] `/dir7/dir10`
-  - [ ] `/f2`
+- [x] Change owner to `user1`:
+  - [x] `/dir1`
+  - [x] `/dir7/dir10`
+  - [x] `/f2`
 
 ---
 
