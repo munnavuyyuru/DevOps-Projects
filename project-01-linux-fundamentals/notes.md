@@ -75,3 +75,14 @@
 - A filesystem must be mounted before it becomes accessible.
 - `df -h` verifies that the volume is mounted and shows available disk space.
 - The mount point (`/data`) acts as the entry point to the attached storage.
+
+---
+
+# Phase 9 & 10 - Cleanup
+
+## Key Learnings
+
+- `userdel` removes Linux user accounts.
+- `groupdel` removes Linux groups after they are no longer in use.
+- `umount` safely detaches a mounted filesystem before it can be removed.
+- Cleaning up resources is an important part of system administration.

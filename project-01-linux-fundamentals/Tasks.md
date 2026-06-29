@@ -178,19 +178,18 @@ Linux assessment for an DevOps Engineer!! Learn with Fun!!
 
 ### As `user5`
 
-- [ ] Delete:
-  - [ ] `/dir1`
-  - [ ] `/dir2`
-  - [ ] `/dir3`
-  - [ ] `/dir5`
-  - [ ] `/dir7`
+- [x] Delete:
+  - [x] `/dir1`
+  - [x] `/dir2`
+  - [x] `/dir3`
+  - [x] `/dir5`
+  - [x] `/dir7`
 
-- [ ] Delete files:
-  - [ ] `/f1`
-  - [ ] `/f4`
-
-- [ ] Delete:
-  - [ ] `/opt/dir14`
+- [x] Delete files:
+  - [x] `/f1`
+  - [x] `/f4`
+- [x] Delete:
+  - [x] `/opt/dir14`
 
 ---
 
@@ -198,26 +197,26 @@ Linux assessment for an DevOps Engineer!! Learn with Fun!!
 
 ### As `root`
 
-- [ ] Delete users:
-  - [ ] `user1`
-  - [ ] `user2`
-  - [ ] `user3`
-  - [ ] `user4`
-  - [ ] `user5`
+- [x] Delete users:
+  - [x] `user1`
+  - [x] `user2`
+  - [x] `user3`
+  - [x] `user4`
+  - [x] `user5`
 
-- [ ] Delete groups:
-  - [ ] `app`
-  - [ ] `aws`
-  - [ ] `database`
-  - [ ] `devops`
+- [x] Delete groups:
+  - [x] `app`
+  - [x] `aws`
+  - [x] `database`
+  - [x] `devops`
 
-- [ ] Remove remaining home directories
+- [x] Remove remaining home directories
 
-- [ ] Unmount:
-  - [ ] `/data`
+- [x] Unmount:
+  - [x] `/data`
 
-- [ ] Delete:
-  - [ ] `/data`
+- [x] Delete:
+  - [x] `/data`
 
 ---
 

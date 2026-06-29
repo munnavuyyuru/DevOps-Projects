@@ -416,3 +416,62 @@ Example:
 ```bash
 ls -l /data
 ```
+
+---
+
+# Phase 9 & 10 - Cleanup
+
+### Delete Files & Directories
+
+> **Already covered in Phase 4**
+
+```bash
+rm -rf <directory>
+rm -f <file>
+```
+
+---
+
+### Switch to Root User
+
+> **Already covered in Phase 7 & 8**
+
+```bash
+sudo -i
+```
+
+---
+
+### Delete a User
+
+```bash
+userdel <username>
+```
+
+Deletes a Linux user account.
+
+---
+
+### Delete a Group
+
+```bash
+groupdel <groupname>
+```
+
+Deletes a Linux group.
+
+---
+
+### Unmount a Filesystem
+
+```bash
+umount <mount_point>
+```
+
+Example:
+
+```bash
+umount /data
+```
+
+Unmounts a mounted filesystem safely before removing the mount point.
