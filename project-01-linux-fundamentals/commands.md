@@ -313,3 +313,106 @@ Example:
 ```bash
 tail -n 1 /etc/passwd
 ```
+
+---
+
+# Phase 7 & 8 - EBS Volume & Filesystem Management
+
+## AWS
+
+- Create a **5 GB EBS Volume**.
+- Attach the volume to the EC2 instance.
+- Verify the attached device (e.g., `/dev/sdf` in AWS, mapped as `/dev/nvme1n1` on Ubuntu).
+
+---
+
+### Switch to Root User
+
+```bash
+sudo -i
+```
+
+---
+
+### Create an Ext4 Filesystem
+
+```bash
+mkfs.ext4 <device>
+```
+
+Example:
+
+```bash
+mkfs.ext4 /dev/nvme1n1
+```
+
+---
+
+### Create Mount Point
+
+> **Already covered in Phase 3**
+
+```bash
+mkdir -p <directory>
+```
+
+Example:
+
+```bash
+mkdir -p /data
+```
+
+---
+
+### Mount Filesystem
+
+```bash
+mount <device> <mount_point>
+```
+
+Example:
+
+```bash
+mount /dev/nvme1n1 /data
+```
+
+---
+
+### Verify Mounted Filesystem
+
+```bash
+df -h
+```
+
+Displays mounted filesystems and disk usage.
+
+---
+
+### Create Directory/File
+
+> **Already covered in Phase 3**
+
+```bash
+mkdir <directory>
+touch <file>
+```
+
+Example:
+
+```bash
+mkdir /data/f1
+```
+
+---
+
+### Verify Files
+
+```bash
+ls -l <directory>
+```
+
+Example:
+
+```bash
+ls -l /data
+```

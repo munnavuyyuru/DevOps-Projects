@@ -62,3 +62,16 @@
 - Combine `find` with `wc -l` to count matching files.
 - `tail -n 1` displays the last line of a file, useful for quickly checking logs or configuration files.
 - `/etc/passwd` stores information about all user accounts on the system.
+
+---
+
+# Phase 7 & 8 - EBS Volume & Filesystem
+
+## Key Learnings
+
+- An EBS volume must be attached to the EC2 instance before it can be used.
+- AWS may show the device as `/dev/sdf`, while Ubuntu exposes it as `/dev/nvme1n1`.
+- `mkfs.ext4` creates a new ext4 filesystem on a block device.
+- A filesystem must be mounted before it becomes accessible.
+- `df -h` verifies that the volume is mounted and shows available disk space.
+- The mount point (`/data`) acts as the entry point to the attached storage.

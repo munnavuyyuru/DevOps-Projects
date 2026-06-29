@@ -150,9 +150,8 @@ Linux assessment for an DevOps Engineer!! Learn with Fun!!
 
 ### AWS Console
 
-- [ ] Create a **5 GB EBS Volume**
-
-- [ ] Attach the volume to the EC2 instance
+- [x] Create a **5 GB EBS Volume**
+- [x] Attach the volume to the EC2 instance
 
 ---
 
@@ -160,18 +159,18 @@ Linux assessment for an DevOps Engineer!! Learn with Fun!!
 
 ### As `root`
 
-- [ ] Create a filesystem
+- [x] Create a filesystem
 
-- [ ] Create:
-  - [ ] `/data`
+- [x] Create:
+  - [x] `/data`
 
-- [ ] Mount the EBS volume
+- [x] Mount the EBS volume
 
-- [ ] Verify using:
-  - [ ] `df -h`
+- [x] Verify using:
+  - [x] `df -h`
 
-- [ ] Create:
-  - [ ] `/data/f1`
+- [x] Create:
+  - [x] `/data/f1`
 
 ---
 
