@@ -224,20 +224,20 @@ Linux assessment for an DevOps Engineer!! Learn with Fun!!
 
 ### AWS Console
 
-- [ ] Detach the EBS volume
+- [x] Detach the EBS volume
 
-- [ ] Delete the EBS volume
+- [x] Delete the EBS volume
 
-- [ ] Terminate the EC2 instance
+- [x] Terminate the EC2 instance
 
 ---
 
 ## Completion Checklist
 
-- [ ] All tasks completed
-- [ ] Commands documented
-- [ ] Screenshots captured
-- [ ] Notes updated
-- [ ] README completed
-- [ ] Changes committed to Git
-- [ ] Repository pushed to GitHub
+- [x] All tasks completed
+- [x] Commands documented
+- [x] Screenshots captured
+- [x] Notes updated
+- [x] README completed
+- [x] Changes committed to Git
+- [x] Repository pushed to GitHub
