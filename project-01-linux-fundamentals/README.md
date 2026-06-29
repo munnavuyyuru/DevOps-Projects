@@ -1,109 +1,105 @@
 # Linux Fundamentals for DevOps
 
-> Hands-on Linux administration practice using an AWS EC2 instance. This project focuses on user management, file permissions, filesystem operations, and EBS volume management—core Linux skills required for DevOps engineers.
+> Hands-on Linux administration on an AWS EC2 instance covering user management, permissions, filesystem operations, and EBS storage management.
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Platform](https://img.shields.io/badge/Platform-AWS-orange)
+![OS](https://img.shields.io/badge/OS-Ubuntu-blue)
 
 ---
 
-## 📌 Project Overview
+## 📖 Overview
 
-This project was completed as part of my DevOps learning journey. The objective was to strengthen Linux administration skills by performing common system administration tasks on an AWS EC2 instance.
-
----
-
-## 🛠 Technologies Used
-
-- Linux (Ubuntu/Amazon Linux)
-- AWS EC2
-- AWS EBS
-- Bash
-- Linux CLI
+This project is part of my **DevOps Learning Journey**. The goal was to strengthen core Linux administration skills by completing a series of hands-on tasks on an AWS EC2 instance.
 
 ---
 
-## 🎯 Skills Practiced
+## 🛠️ Tech Stack
 
-- User and Group Management
-- Linux Permissions and Ownership
-- File & Directory Operations
-- File Searching and Text Processing
-- Vi Editor
-- AWS EBS Volume Management
-- Filesystem Mounting
+* Ubuntu Linux
+* AWS EC2
+* AWS EBS
+* Bash
+* Linux CLI
 
 ---
 
-## 📂 Project Structure
+## 🚀 Skills Practiced
 
-```
+* Linux User & Group Management
+* File Permissions & Ownership
+* File & Directory Operations
+* Text Processing (`sed`, `vi`)
+* File Search (`find`, `tail`)
+* Filesystem Creation & Mounting
+* AWS EBS Management
+
+---
+
+## ✅ Project Tasks
+
+Completed the following:
+
+* User and group management
+* File and directory operations
+* Linux permissions and ownership
+* Text processing and file search
+* AWS EBS creation and mounting
+* Filesystem verification
+* System cleanup
+
+A detailed checklist is available in **`tasks.md`**.
+
+---
+
+## 📂 Repository Structure
+
+```text
 .
 ├── README.md
+├── tasks.md
 ├── commands.md
 ├── notes.md
-├── tasks.md
 └── screenshots/
 ```
 
 ---
 
-## ✅ Tasks Completed
+## 📚 Documentation
 
-- Created Linux users and groups
-- Managed primary and secondary groups
-- Modified file ownership and permissions
-- Created, moved, renamed, and deleted files/directories
-- Used Linux commands such as:
-  - `find`
-  - `grep`
-  - `sed`
-  - `mv`
-  - `cp`
-  - `rm`
-  - `chmod`
-  - `chown`
-
-- Created and mounted an AWS EBS volume
-- Verified mounted storage using `df -h`
-- Performed cleanup of users, groups, and storage
+| File           | Description                            |
+| -------------- | -------------------------------------- |
+| `tasks.md`     | Project task checklist                 |
+| `commands.md`  | Linux commands used during the project |
+| `notes.md`     | Key learnings from each phase          |
+| `screenshots/` | Verification screenshots               |
 
 ---
 
-## 📸 Verification
+## 🎯 Learning Outcome
 
-Screenshots of important steps are available in the `screenshots/` directory.
+After completing this project, I gained practical experience with:
 
-Examples include:
-
-- EC2 Instance
-- User Creation
-- Group Management
-- Permission Changes
-- Mounted EBS Volume
-- `df -h` Output
-- Cleanup
+* Linux user and group administration
+* Managing file ownership and permissions
+* Working with files and directories
+* Using common Linux administration commands
+* Creating and mounting filesystems
+* Managing AWS EBS volumes
+* Performing system cleanup and resource management
 
 ---
 
-## 📖 Key Learnings
+## 💡 Future Improvements
 
-- Difference between primary and secondary groups
-- Linux ownership vs permissions
-- Recursive file operations
-- Basic filesystem hierarchy
-- Mounting and unmounting storage devices
-- Common Linux commands used in DevOps
+* Automate repetitive tasks using Bash scripts.
+* Configure persistent mounts using `/etc/fstab`.
+* Extend the project with shell-based automation.
 
 ---
 
-## 🚀 Possible Improvements
+## 🙏 Acknowledgement
 
-- Automate user creation using Bash scripts
-- Automate EBS mounting using `/etc/fstab`
-- Add shell scripts for repetitive administrative tasks
+This project was inspired by the **DevOps Projects** repository by **Harshhaa (NotHarshhaa)**.
 
----
-
-## 📚 Acknowledgement
-
-The assignment for this project was inspired by the **DevOps Projects** repository created by **Harshhaa (NotHarshhaa)**.
-
-This repository contains my independent implementation, documentation, notes, and observations while completing the exercises.
+I completed the exercises independently and documented my own implementation, commands, notes, and observations throughout the project.
